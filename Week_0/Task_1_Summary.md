@@ -35,8 +35,18 @@
 ---
 
 ## 📷 Flow Diagrams
-![SoC Design Flow](./W0_images/O4_and_Applications.png)  
-![O4 & Applications](./W0_images/SoC_Design_Flow.png)  
+
+<p align="center">
+  <img src="./W0_images/SoC_Design_Flow.png" alt="SoC Design Flow" width="600" style="border:2px solid black;"/>
+  <br/>
+  <em>Figure 1: SoC Design Flow (O1 → O4)</em>
+</p>
+
+<p align="center">
+  <img src="./W0_images/O4_and_Applications.png" alt="O4 and Applications" width="600" style="border:2px solid black;"/>
+  <br/>
+  <em>Figure 2: O4 Stage and Real-world Applications</em>
+</p>
 
 ---
 
