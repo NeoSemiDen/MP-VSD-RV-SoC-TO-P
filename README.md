@@ -7,8 +7,6 @@ This repository documents my journey through the **IIT Gandhinagar & VSD RISC-V 
 
 <p align="center">
   <img src=".Week_0/W0_images/Mission_RISCV_India.png" alt="SoC Design Flow" width="600" style="border:2px solid black;"/>
-  <br/>
-  
 </p>
 
 ---
