@@ -11,7 +11,7 @@ System requirements for the program environment:
 - **Storage**: 50 GB  
 - **CPU**: 4 vCPUs  
 
-📷 *Snapshot Placeholder*  
+📷 * System Check Snapshot Placeholder*  
 ![System Check Screenshot](./W0_images/system_check.png)  
 
 ---
@@ -33,17 +33,30 @@ $ make config-gcc
 $ make
 $ sudo make install
 ````
+📷 *Yosys Tool Snapshot Placeholder*  
+![Yosys Tool Check Screenshot](./W0_images/yosys_tool_check.png)  
+
+
 ### 🔹 Icarus Verilog (iverilog) - Simulation
 Used for **Verilog simulation and testing.**
 
-
+````bash
 $ sudo apt-get update
 $ sudo apt-get install iverilog 
+````
+📷 *Iverilog Tool Snapshot Placeholder*  
+![Iverilog Tool Check Screenshot](./W0_images/iverilog_tool_check.png)  
 
 ### 🔹 GTKWave – Waveform Viewer
 Used to **visualize simulation waveforms.**
 
-
+````bash
 $ sudo apt-get update
 $ sudo apt install gtkwave 
+````
+📷 *GTKWave Tool Snapshot Placeholder*  
+![GTKWave Tool Check Screenshot](./W0_images/gtkwave_tool_check.png)  
+
+
+
 
