@@ -1,5 +1,5 @@
 # Week 0 – Task 1  
-**Digital VLSI SoC Design & Planning (RISC-V Tapeout Program – India)**  
+**Getting started with Digital VLSI SoC Design & Planning**  
 
 ---
 
