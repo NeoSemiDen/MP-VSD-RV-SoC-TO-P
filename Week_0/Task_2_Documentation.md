@@ -1,5 +1,5 @@
 # Week 0 – Task 2  
-**System Check & Basic Tool Installation (RISC-V Tapeout Program – India)**  
+**System Check & Basic Tool Installation**  
 
 ---
 
