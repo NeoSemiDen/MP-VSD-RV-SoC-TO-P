@@ -46,7 +46,7 @@
 ---
 
 ## ✅ Applications
-Once taped out & verified, the SoC is deployed in:  
+Once taped out & verified, the SoCs can be deployed in:  
 - Smart wearables (iWatch)  
 - Arduino boards  
 - TV panels  
