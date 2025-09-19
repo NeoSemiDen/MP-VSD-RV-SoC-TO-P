@@ -1,25 +1,42 @@
-
-# Welcome Call & Week 0: Program Kick-off & Tool Setup
-* **Objective:** To get introduced to the program's ambitious scope and establish the foundational design environment.
-* **Tasks Completed:**
-    * Successfully installed and configured the full suite of open-source EDA tools.
-    * Attended the welcome call to understand the program's roadmap and core objectives.
-    * Cloned and verified the initial reference project to ensure the environment is ready for the first design tasks.
-* **Key Learnings:**
-    * The program is not just a course but a structured, national-level initiative with real-world applications.
-    * The importance of having a robust and repeatable design environment setup to avoid future roadblocks.
----
-## Week_0 -> Task - 1 
-
-* Task one is to create a Github repository and document the summary of the video provided to initiate the Program - "**Getting started with Digital VLSI SOC Design and Planning**"
-* Task - 1 is documented here:- (Add Link to the documnetation)
-
----
-## Week_0 -> Task - 2
-
-* Installing the tools listed in the given document. Then update the Github repo with Tool Snaphot.
-* This Installation guide is attached here. (add the pdf)
-* Task - 2 is documented here:- (Add Link to the documnetation)
+# 📅 Welcome Call & Week 0: Program Kick-off & Tool Setup  
 
 ---
 
+## 🎯 Objective  
+To get introduced to the program's scope and establish a strong, reproducible design environment for the upcoming RISC-V SoC Tapeout journey.  
+
+---
+
+## ✅ Key Highlights  
+- Attended the **Welcome Call** to understand the program roadmap and expectations.  
+- Successfully installed and configured the **open-source EDA toolchain**.  
+- Cloned and verified the initial **reference project** to ensure the setup is ready.  
+
+---
+
+## 📖 Key Learnings  
+- The program is structured as a **national-level initiative** with real-world relevance, not just an academic exercise.  
+- Importance of maintaining a **robust and repeatable environment** to avoid bottlenecks later in the design flow.  
+
+---
+
+## 📂 Week_0 Tasks  
+
+### 🔹 Task 1 – Documentation Summary  
+Create a GitHub repository and document the summary of the video:  
+**“Getting Started with Digital VLSI SoC Design and Planning”**  
+
+📄 [Task 1 Documentation](./Week_0/Task_1_Summary.md)  
+
+---
+
+### 🔹 Task 2 – Tool Installation & Setup  
+Install all tools listed in the provided guide, verify environment readiness, and update the repository with installation snapshots.  
+
+📄 [Task 2 Documentation](./Week_0/Task_2_Documentation.md)  
+
+---
+
+## 🚀 Next Steps  
+- Continue with Week 1 deliverables.  
+- Maintain consistent, clean documentation for each task.  
