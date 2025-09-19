@@ -1,7 +1,7 @@
 
 This is activity/submission repo for VSD's RISC‑V Reference SoC Tapeout Program by Madhav Parihar.
 
-# From Silicon to Sovereignty: My RISC-V SoC Tapeout Program
+# From Silicon to Sovereignty: RISC-V Reference SoC Tapeout Program
 
 This repository documents my journey through the **IIT Gandhinagar & VSD RISC-V SoC Tapeout Program**, a 20-week national mission to turn India’s semiconductor vision into reality. My goal is to gain end-to-end chip design expertise, from RTL to physical tapeout, and contribute to this ambitious national effort.
 
