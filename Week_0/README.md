@@ -9,3 +9,17 @@
     * The program is not just a course but a structured, national-level initiative with real-world applications.
     * The importance of having a robust and repeatable design environment setup to avoid future roadblocks.
 ---
+## Week_0 -> Task - 1 
+
+*Task one is to create a Github repository and document the summary of the video provided to initiate the Program - "**Getting started with Digital VLSI SOC Design and Planning**"
+
+The task is documented here:- (Add Link to the documnetation)
+---
+## Week_0 -> Task - 2
+
+* Installing the tools listed in the given document. Then update the Github repo with Tool Snaphot.
+* This Installation guide is attached here. (add the pdf)
+* Click here for description on the Tools Installation. (add the link of github thread here).
+
+---
+
