@@ -59,5 +59,5 @@ Once taped out & verified, the SoCs can be deployed in:
 </p>
 
 ---
-📄 [Go to Week 0 details](./Week_0_readme.md) 
-📄 [Go to Task 2 documentation](./Task_2_Documentation.md) 
+- 📄 [Go to Week 0 details](./Week_0_readme.md)
+- 📄 [Go to Task 2 documentation](./Task_2_Documentation.md) 
