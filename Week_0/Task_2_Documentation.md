@@ -11,8 +11,13 @@ System requirements for the program environment:
 - **Storage**: 50 GB  
 - **CPU**: 4 vCPUs  
 
-📷 * System Check Snapshot Placeholder*  
-![System Check Screenshot](./W0_images/system_check.png)  
+📷 *System Check Snapshot*  
+<p align="center">
+  <img src="./W0_images/system_check.png" alt="O4 and Applications" width="600" style="border:2px solid black;"/>
+  <br/>
+  <em>Figure 1: System Check Snapshot</em>
+</p>
+
 
 ---
 
@@ -33,9 +38,12 @@ $ make config-gcc
 $ make
 $ sudo make install
 ````
-📷 *Yosys Tool Snapshot Placeholder*  
-![Yosys Tool Check Screenshot](./W0_images/yosys_tool_check.png)  
-
+📷 *Yosys Tool Snapshot*   
+<p align="center">
+  <img src="./W0_images/yosys_tool_check.png" alt="O4 and Applications" width="600" style="border:2px solid black;"/>
+  <br/>
+  <em>Figure 2: Yosys Tool Check Snapshot</em>
+</p>
 
 ### 🔹 Icarus Verilog (iverilog) - Simulation
 Used for **Verilog simulation and testing.**
@@ -44,8 +52,12 @@ Used for **Verilog simulation and testing.**
 $ sudo apt-get update
 $ sudo apt-get install iverilog 
 ````
-📷 *Iverilog Tool Snapshot Placeholder*  
-![Iverilog Tool Check Screenshot](./W0_images/iverilog_tool_check.png)  
+📷 *Iverilog Tool Snapshot*   
+<p align="center">
+  <img src="./W0_images/iverilog_tool_check.png" alt="O4 and Applications" width="600" style="border:2px solid black;"/>
+  <br/>
+  <em>Figure 3: Iverilog Tool Check Snapshot</em>
+</p>
 
 ### 🔹 GTKWave – Waveform Viewer
 Used to **visualize simulation waveforms.**
@@ -54,9 +66,12 @@ Used to **visualize simulation waveforms.**
 $ sudo apt-get update
 $ sudo apt install gtkwave 
 ````
-📷 *GTKWave Tool Snapshot Placeholder*  
-![GTKWave Tool Check Screenshot](./W0_images/gtkwave_tool_check.png)  
-
+📷 *GTKWave Tool Snapshot*  
+<p align="center">
+  <img src="./W0_images/gtkwave_tool_check.png" alt="O4 and Applications" width="600" style="border:2px solid black;"/>
+  <br/>
+  <em>Figure 3: GTKWave Tool Check Snapshot</em>
+</p>
 
 
 
