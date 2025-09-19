@@ -21,7 +21,7 @@ System requirements for the program environment:
 ### 🔹 Yosys – Logic Synthesis  
 Used for **RTL synthesis** in the digital design flow.  
 
-
+````bash
 $ sudo apt-get update
 $ git clone https://github.com/YosysHQ/yosys.git
 $ cd yosys
@@ -32,7 +32,7 @@ $ sudo apt install make build-essential clang bison flex \
 $ make config-gcc
 $ make
 $ sudo make install
-
+````
 ### 🔹 Icarus Verilog (iverilog) - Simulation
 Used for **Verilog simulation and testing.**
 
