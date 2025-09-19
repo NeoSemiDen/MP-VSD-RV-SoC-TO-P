@@ -22,8 +22,8 @@ System requirements for the program environment:
 Used for **RTL synthesis** in the digital design flow.  
 
 
-*$ sudo apt-get update
-*$ git clone https://github.com/YosysHQ/yosys.git
+$ sudo apt-get update
+$ git clone https://github.com/YosysHQ/yosys.git
 $ cd yosys
 $ sudo apt install make build-essential clang bison flex \
     libreadline-dev gawk tcl-dev libffi-dev git \
