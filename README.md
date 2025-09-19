@@ -1,4 +1,4 @@
-# MP-VSD-RV-SoC-TO-P
+
 This is activity/submission repo for VSD's RISC‑V Reference SoC Tapeout Program by Madhav Parihar.
 
 # From Silicon to Sovereignty: My RISC-V SoC Tapeout Program
@@ -25,8 +25,6 @@ This program is made possible by the visionary leadership and collaboration of s
 
 A special thanks to **Kunal Ghosh**, co-founder of VSD, for his pivotal role in bridging the industry-academia gap.
 
-
-
 ---
 
 ## 🗓️ Weekly Progress & Logs
@@ -35,10 +33,7 @@ This is a high-level overview of my weekly progress. For detailed notes, please 
 
 | Week | Title | Status | Link to Details |
 | :--- | :--- | :--- | :--- |
-| **Welcome & Week 0** | **Program Kick-off & Tool Setup** | ✅ Completed | [Details](https://github.com/[YourUsername]/[YourRepoName]/tree/main/week-00) |
-| **Week 1** | [Week 1 Title] | ⏳ In Progress | [Details](https://github.com/[YourUsername]/[YourRepoName]/tree/main/week-01) |
-| **Week 2** | [Week 2 Title] | ⚪ Upcoming | |
-| **...** | | | |
+| **Welcome & Week 0** | **Program Kick-off & Tool Setup** | ✅ Completed | [Details](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/Week_0/README.md) |
 
 ---
 
