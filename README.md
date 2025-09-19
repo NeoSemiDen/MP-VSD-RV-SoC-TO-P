@@ -6,7 +6,7 @@ This is activity/submission repo for VSD's RISC‑V Reference SoC Tapeout Progra
 This repository documents my journey through the **IIT Gandhinagar & VSD RISC-V SoC Tapeout Program**, a 20-week national mission to turn India’s semiconductor vision into reality. My goal is to gain end-to-end chip design expertise, from RTL to physical tapeout, and contribute to this ambitious national effort.
 
 <p align="center">
-  <img src=".Week_0/W0_images/Mission_RISCV_India.png" alt="SoC Design Flow" width="600" style="border:2px solid black;"/>
+  <img src="/Week_0/W0_images/Mission_RISCV_India.png" alt="SoC Design Flow" width="600" style="border:2px solid black;"/>
 </p>
 
 ---
