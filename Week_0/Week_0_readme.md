@@ -26,14 +26,14 @@ To get introduced to the program's scope and establish a strong, reproducible de
 Create a GitHub repository and document the summary of the video:  
 **“Getting Started with Digital VLSI SoC Design and Planning”**  
 
-📄 [Task 1 Documentation](./Week_0/Task_1_Summary.md)  
+📄 [Task 1 Documentation](./Task_1_Summary.md)  
 
 ---
 
 ### 🔹 Task 2 – Tool Installation & Setup  
 Install all tools listed in the provided guide, verify environment readiness, and update the repository with installation snapshots.  
 
-📄 [Task 2 Documentation](./Week_0/Task_2_Documentation.md)  
+📄 [Task 2 Documentation](./Task_2_Documentation.md)  
 
 ---
 
