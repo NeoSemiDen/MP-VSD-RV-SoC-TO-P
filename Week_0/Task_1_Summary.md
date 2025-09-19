@@ -35,8 +35,8 @@
 ---
 
 ## 📷 Flow Diagrams
-![SoC Design Flow](./assets/e7ec62a6-69ed-4058-a4af-48b07693056e.png)  
-![O4 & Applications](./assets/c4477792-0223-4213-9610-281a49986ba2.png)  
+![SoC Design Flow](./W0_images/O4_and_Applications.png)  
+![O4 & Applications](./W0_images/SoC_Design_Flow.png)  
 
 ---
 
