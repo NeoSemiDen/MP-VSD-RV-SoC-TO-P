@@ -25,19 +25,20 @@ This program is made possible by the visionary leadership and collaboration of s
 
 A special thanks to **Kunal Ghosh**, co-founder of VSD, for his pivotal role in bridging the industry-academia gap.
 
+
+
 ---
 
-## 📅 Week-by-Week Progress
+## 🗓️ Weekly Progress & Logs
 
-### Welcome Call & Week 0: Program Kick-off & Tool Setup
-* **Objective:** To get introduced to the program's ambitious scope and establish the foundational design environment.
-* **Tasks Completed:**
-    * Successfully installed and configured the full suite of open-source EDA tools.
-    * Attended the welcome call to understand the program's roadmap and core objectives.
-    * Cloned and verified the initial reference project to ensure the environment is ready for the first design tasks.
-* **Key Learnings:**
-    * The program is not just a course but a structured, national-level initiative with real-world applications.
-    * The importance of having a robust and repeatable design environment setup to avoid future roadblocks.
+This is a high-level overview of my weekly progress. For detailed notes, please click on the links below.
+
+| Week | Title | Status | Link to Details |
+| :--- | :--- | :--- | :--- |
+| **Welcome & Week 0** | **Program Kick-off & Tool Setup** | ✅ Completed | [Details](https://github.com/[YourUsername]/[YourRepoName]/tree/main/week-00) |
+| **Week 1** | [Week 1 Title] | ⏳ In Progress | [Details](https://github.com/[YourUsername]/[YourRepoName]/tree/main/week-01) |
+| **Week 2** | [Week 2 Title] | ⚪ Upcoming | |
+| **...** | | | |
 
 ---
 
