@@ -70,7 +70,7 @@ $ sudo apt install gtkwave
 <p align="center">
   <img src="./W0_images/gtkwave_tool_check.png" alt="O4 and Applications" width="600" style="border:2px solid black;"/>
   <br/>
-  <em>Figure 3: GTKWave Tool Check Snapshot</em>
+  <em>Figure 4: GTKWave Tool Check Snapshot</em>
 </p>
 
 
