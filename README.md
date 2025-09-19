@@ -33,7 +33,7 @@ This is a high-level overview of my weekly progress. For detailed notes, please 
 
 | Week | Title | Status | Link to Details |
 | :--- | :--- | :--- | :--- |
-| **Welcome & Week 0** | **Program Kick-off & Tool Setup** | ✅ Completed | [Details](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/Week_0/README.md) |
+| **Welcome & Week 0** | **Program Kick-off & Tool Setup** | ✅ Completed | [Details](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_0/README.md) |
 
 ---
 
