@@ -10,7 +10,7 @@ To get introduced to the program's scope and establish a strong, reproducible de
 ## ✅ Key Highlights  
 - Attended the **Welcome Call** to understand the program roadmap and expectations.  
 - Successfully installed and configured the **open-source EDA toolchain**.  
-- Cloned and verified the initial **reference project** to ensure the setup is ready.  
+- Ensured that the setup is ready and went through introductory video on SoC design and planning.  
 
 ---
 
