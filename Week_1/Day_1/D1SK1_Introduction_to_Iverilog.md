@@ -28,7 +28,9 @@
   <br/>
   <em>Figure 1: Basic Testbench Structure</em>
 </p>
+
 ---
+
 ### Iverilog based Simulation Flow
 
 <p align="center">
@@ -36,6 +38,7 @@
   <br/>
   <em>Figure 2: Iverilog based Simulation Flow</em>
 </p>
+
 ----
 
 
