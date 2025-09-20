@@ -24,7 +24,7 @@
 - Simulator is looking for the change in the values of input.
 
 <p align="center">
-  <img src="./W1_images/Testbench.png" alt="O4 and Applications" width="600" style="border:2px solid black;"/>
+  <img src="../W1_images/Testbench.png" alt="O4 and Applications" width="600" style="border:2px solid black;"/>
   <br/>
   <em>Figure 1: Basic Testbench Structure</em>
 </p>
@@ -34,7 +34,7 @@
 ### Iverilog based Simulation Flow
 
 <p align="center">
-  <img src="./W1_images/Iv_Sim_Flow.png" alt="O4 and Applications" width="600" style="border:2px solid black;"/>
+  <img src="../W1_images/Iv_Sim_Flow.png" alt="O4 and Applications" width="600" style="border:2px solid black;"/>
   <br/>
   <em>Figure 2: Iverilog based Simulation Flow</em>
 </p>
