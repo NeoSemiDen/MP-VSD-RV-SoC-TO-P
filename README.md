@@ -38,10 +38,10 @@ This is a high-level overview of my weekly progress. For detailed notes, please 
 | Week | Day | Title | Status | Link to Details |
 | :--- | :--- | :--- | :--- | :--- |
 | **Welcome & Week 0** | |**Program Kick-off & Tool Setup** | ✅ Completed | [Details](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_0/Week_0_readme.md) |
-|[**Week 1**](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_1/Week_1_readme.md)| Day 1 |**Introduction to Verilog RTL design and synthesis**|⚪ Upcoming|[Details](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_1/Day_1/W1_D1_readme.md)|
-|| Day 2 | **Timing Libs** <br> **Types of Synthesis** <br> **Flops Coding Style and optimization** |⚪ Upcoming|[Details](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_1/Day_2/W1_D2_readme.md)|
-|| Day 3 |**Coming Soon**|⚪ Upcoming|[Details](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_1/Day_3/W1_D3_readme.md)|
-|| Day 4 |**Coming Soon**|⚪ Upcoming|[Details](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_1/Day_4/W1_D4_readme.md)|
-|| Day 5 |**Coming Soon**|⚪ Upcoming|[Details](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_1/Day_5/W1_D5_readme.md)|
+|[**Week 1**](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_1/Week_1_readme.md)| Day 1 |**Introduction to Verilog RTL design and synthesis**|🚧 In Progress|[Details](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_1/Day_1/W1_D1_readme.md)|
+|| Day 2 | **Timing Libs** <br> **Hierarchical vs. Flat Synthesis** <br> **Various Flop Coding Styles and optimization** |⏳ Pending|[Details](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_1/Day_2/W1_D2_readme.md)|
+|| Day 3 |**Combinational and Sequential Optimizations**|⏳ Pending|[Details](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_1/Day_3/W1_D3_readme.md)|
+|| Day 4 |**Gate Level Simulation (GLS)** <br> **Blocking and Non-blocking Statements** <br> **Synthesis-Simulation Mismatch**|⏳ Pending|[Details](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_1/Day_4/W1_D4_readme.md)|
+|| Day 5 |**Optimization in Synthesis**|⏳ Pending|[Details](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_1/Day_5/W1_D5_readme.md)|
 ---
 
