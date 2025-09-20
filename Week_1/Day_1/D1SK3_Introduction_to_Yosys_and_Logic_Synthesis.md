@@ -73,3 +73,42 @@
 - 🧰 **Synthesis-Friendly:** Standard-cell libraries provide pre-characterized options for easy optimization.
 
 ## L3 – Introduction to Logic Synthesis (Part 2)
+
+### Faster Cells vs. Slower Cells
+- Load in Digital Logic Circuit -> Capacitance
+- Fater the charging/discharging of cap -> Lesser the cell delay.
+  - To charge/discharge the capacitance fast, we need transistors capable of sourcing more current.
+  - Wider transistors -> Low Delay -> More Area and Power as well !!
+  - Narrow transistors -> More Delay -> Less Area and Power
+  - Faster Cells donot come free, they come at penalty of area and power.
+
+### Selection of Cells
+- Need to guide the synthesizer to select the flavor of cells that is optimum for the implementation of logic circuit.
+- More use of faster cells
+  - Bad circuit in terms of Power and Area
+  - Hold time violations ??
+- More use of slower cells
+  - Sluggish circuit, may not meet the performance need
+- The guidance offered to the Synthesizer -> "Constraints"
+
+### Synthesis (Illustration)
+
+<p align="center">
+  <img src="../W1_images/synthesis_illustration.png" alt="synthesis_illustration" width="600" style="border:2px solid black;"/>
+  <br/>
+  <em>Figure 3: Illustration of Synthesis</em>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
