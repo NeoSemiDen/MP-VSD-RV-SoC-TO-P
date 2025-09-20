@@ -37,5 +37,14 @@
 </p>
 
 ## L2 – Introduction to Logic Synthesis (Part 1)
+### RTL Design
+- Behavioral representation of the required specification
+
+**IS THIS WHAT WE NEED?**
+- No, we need Digital Logic Circuit.
+
+**HOW?**
+
+### Synthesis
 
 ## L3 – Introduction to Logic Synthesis (Part 2)
