@@ -46,5 +46,30 @@
 **HOW?** - using logic synthesis
 
 ### Synthesis
+- RTL to Gate Level Netlist
+- The design is converted into gates and the connections are made between gates.
+- This is given out as a file called netlist.
+
+### What is .lib
+- Collection of logical modules.
+- Includes basic gates like AND, OR, NOT, etc.
+- Different flavors of same gate
+  - 2 input AND Gate
+    - SLow
+    - Medium
+    - Fast
+  - 3 input AND Gate
+    - SLow
+    - Medium
+    - Fast
+  - and So on...
+
+### Why Different Flavours of Gates
+
+- ⚡ **Speed:** Some gate implementations are faster for critical paths.  
+- 🔋 **Power:** Low-power versions reduce energy consumption.  
+- 🏗️ **Area:** Fewer transistors save silicon area.  
+- 🛡️ **Noise Margin:** Certain styles are more robust to voltage/noise variations.  
+- 🧰 **Synthesis-Friendly:** Standard-cell libraries provide pre-characterized options for easy optimization.
 
 ## L3 – Introduction to Logic Synthesis (Part 2)
