@@ -38,7 +38,7 @@ This is a high-level overview of my weekly progress. For detailed notes, please 
 | Week | Day | Title | Status | Link to Details |
 | :--- | :--- | :--- | :--- | :--- |
 | **Welcome & Week 0** | |**Program Kick-off & Tool Setup** | ✅ Completed | [Details](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_0/Week_0_readme.md) |
-|**Week 1**| Day 1 |**Coming Soon**|⚪ Upcoming|[Details](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_1/Week_1_readme.md)|
+|[**Week 1**]((https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_1/Week_1_readme.md))| Day 1 |**Coming Soon**|⚪ Upcoming|[Details](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_1/Week_1_readme.md)|
 || Day 2 |**Coming Soon**|⚪ Upcoming|[Details](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_1/Week_1_readme.md)|
 || Day 3 |**Coming Soon**|⚪ Upcoming|[Details](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_1/Week_1_readme.md)|
 || Day 4 |**Coming Soon**|⚪ Upcoming|[Details](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_1/Week_1_readme.md)|
