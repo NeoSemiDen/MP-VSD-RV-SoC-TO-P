@@ -94,7 +94,7 @@
 ### Synthesis (Illustration)
 
 <p align="center">
-  <img src="../W1_images/synthesis_illustration.png" alt="synthesis_illustration" width="600" style="border:2px solid black;"/>
+  <img src="../W1_images/Synthesis_illustration.png" alt="synthesis_illustration" width="600" style="border:2px solid black;"/>
   <br/>
   <em>Figure 3: Illustration of Synthesis</em>
 </p>
