@@ -43,7 +43,7 @@
 **IS THIS WHAT WE NEED?**
 - No, we need Digital Logic Circuit.
 
-**HOW?**
+**HOW?** - using logic synthesis
 
 ### Synthesis
 
