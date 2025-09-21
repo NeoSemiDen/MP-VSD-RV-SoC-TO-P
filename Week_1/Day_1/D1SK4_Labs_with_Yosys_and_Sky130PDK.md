@@ -34,6 +34,27 @@ show
 - Technology mapping using ABC
 - show to see the graphical representation of realised circuit.
 
+<p align="center">
+  <img src="../W1_images/start_yosys_give_input.png" alt="Yosys Lets go" width="600" style="border:2px solid black;"/>
+  <br/>
+  <em>Figure 1: Starting yosys and giving the required inputs</em>
+</p>
+
+<p align="center">
+  <img src="../W1_images/tech_map_w_abc.png" alt="ABC Command" width="600" style="border:2px solid black;"/>
+  <br/>
+  <em>Figure 2: Technology Mapping with ABC</em>
+</p>
+
+---
+
+<p align="center">
+  <img src="../W1_images/graphical_good_mux.png" alt="Graphical mux" width="600" style="border:2px solid black;"/>
+  <br/>
+  <em>Figure 3: Graphical Representation of the Synthesized Mux Design</em>
+</p>
+
+
 ---
 
 ## L2 – Lab3: Yosys – 1 Good MUX (Part 2)
@@ -48,12 +69,18 @@ show
 **Step 4: Write the generated netlist**
 
 ````bash
-write_verilog -noattr good_mux_netlist.v
+write_verilog -noattr good_mux_gln.v
 ````
 
 - noattr switch to have atributes in written netlist.
 - We can observe the netlist in any editor.
-  
+
+<p align="center">
+  <img src="../W1_images/good_mux_gln.png" alt="Gate level netlist of the synthesized design" width="600" style="border:2px solid black;"/>
+  <br/>
+  <em>Figure 4: Gate level netlist of the synthesized design</em>
+</p>
+
 
 ---
 
