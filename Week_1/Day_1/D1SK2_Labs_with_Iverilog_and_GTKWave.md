@@ -16,7 +16,7 @@ git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
 ````
 
 <p align="center">
-  <img src="./W1_images/VLSI_dir.png" alt="Snapshot of VLSI Directory" width="600" style="border:2px solid black;"/>
+  <img src="../W1_images/VLSI_dir.png" alt="Snapshot of VLSI Directory" width="600" style="border:2px solid black;"/>
   <br/>
   <em>Figure 1: VLSI directory with cloned repos</em>
 </p>
