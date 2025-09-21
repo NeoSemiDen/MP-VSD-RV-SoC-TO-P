@@ -8,7 +8,7 @@
 In this lab we will synthesize the design (which we simulated before) in yosys.
 - We have already installed the required tools.
 
-We will start with being present in `~/sky130RTLDesignAndSynthesisWorkshop/verilog_files`
+We will start with being present in `~/VLSI/sky130RTLDesignAndSynthesisWorkshop/verilog_files`
 
 **Step 1: Start Yosys**
 
