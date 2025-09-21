@@ -49,10 +49,10 @@ This day introduces the fundamentals of **Verilog RTL design**, **simulation usi
 ---
 
 ## ✅ Progress Tracker
-- [ ] Skill 1 – Iverilog  
-- [ ] Skill 2 – Iverilog + GTKWave Labs  
-- [ ] Skill 3 – Yosys & Logic Synthesis  
-- [ ] Skill 4 – Yosys + Sky130 Labs  
+- [x] Skill 1 – Iverilog  
+- [x] Skill 2 – Iverilog + GTKWave Labs  
+- [x] Skill 3 – Yosys & Logic Synthesis  
+- [x] Skill 4 – Yosys + Sky130 Labs  
 
 ---
 
