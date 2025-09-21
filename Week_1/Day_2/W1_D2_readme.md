@@ -10,9 +10,7 @@ This day covers **timing libraries (.lib files)**, **hierarchical vs flat synthe
 ### 🔹 Skill 1 – Introduction to Timing `.lib` Files
 | Lesson | Title |
 |--------|-------|
-| L1 | Lab4 – Introduction to dot Lib (Part 1) |
-| L2 | Lab4 – Introduction to dot Lib (Part 2) |
-| L3 | Lab4 – Introduction to dot Lib (Part 3) |
+| L1-L3 | Lab4 – Introduction to dot Lib |
 
 👉 [Read Notes](D2SK1_Introduction_to_dot_lib.md)
 
