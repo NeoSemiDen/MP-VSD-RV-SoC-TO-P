@@ -19,7 +19,7 @@ In these lab, we will see some optimisations made by synthesis tool `Yosys`.
 module opt_check (input a , input b , output y);
 	assign y = a?b:0;
 endmodule
-```
+````
 - Here, we have a mux, when `a = 0`, `y = 0` and when `a = 1`, `y = b`.
 - This looks like behaviour of `AND` and can be expressed as `y = a and b`
 
