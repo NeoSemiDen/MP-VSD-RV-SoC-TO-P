@@ -20,8 +20,7 @@ This day focuses on **RTL optimizations**, covering **combinational logic optimi
 ### 🔹 Skill 2 – Combinational Logic Optimizations
 | Lesson | Title |
 |--------|-------|
-| L1 | Lab06 – Combinational Logic Optimisations (Part 1) |
-| L2 | Lab06 – Combinational Logic Optimisations (Part 2) |
+| L1-L2 | Lab06 – Combinational Logic Optimisations |
 
 👉 [Read Notes](D3SK2_Combinational_Logic_Optimisations.md)
 
