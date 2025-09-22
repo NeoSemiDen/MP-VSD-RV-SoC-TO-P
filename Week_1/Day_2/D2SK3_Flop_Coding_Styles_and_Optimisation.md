@@ -167,25 +167,53 @@ Let's see the simulation waveform and the graphical synthesised view of all thes
 
 ## L5-L6 – Interesting Optimisations
 
+Let's about some intresting optimisations in synthesis.
+
+- For example: Multiplication with 2 in binary
+
+````Verilog
+module mul2 (input [2:0] a, output [3:0] y);
+	assign y = a * 2;
+endmodule
+````
+
+- In binary, multiplication with 2 means, shifting by 1 in left.
+- Although if we try to compute it straigh forward, we will need a multiplier in general.
+- But our synthesizer understands this shifting mechanism, the way it relates to binary multiplication with 2.
+
+**This is how it get synthesized as:**
+
+<p align="center">
+  <img src="../W1_images/mult2_yosys.png" alt="mult2_yosys.png" width="600" style="border:2px solid black;"/>
+  <br/>
+  <em>Figure 9: Synthesized view of Our example - Multiplication with 2 </em>
+</p>
+
+---
+
+- Another example - multiplication by 9 with 3 bit input and 6 bit output
+````Verilog
+module mult8 (input [2:0] a , output [5:0] y);
+	assign y = a * 9;
+endmodule
+````
+- In this case of binary multiplication, it can be seen as (a * 8) + (a * 1).
+- This shows that I just need two copies of a, one with is shifted by 3 bits and one as it is.
+
+  **This is how this one get synthesized**
+  
+<p align="center">
+  <img src="../W1_images/mult8_yosys.png" alt="mult8_yosys.png" width="600" style="border:2px solid black;"/>
+  <br/>
+  <em>Figure 10: Synthesized view of Our example - Multiplication with 9 </em>
+</p>
 
 
+- 2 copies of a as we thought of.
 
+  ---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  This was it with some of the intresting optimisations. There will be more.
 
 
 ---
