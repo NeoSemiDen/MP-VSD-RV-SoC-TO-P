@@ -30,6 +30,19 @@ If `A = 0` then
 
 - From 2 gates, it turned out to be a single inverter.
 
+### Boolean Logic Optimisation
+
+- Another example : `y = a ? (b ? c:(c?a:0)) : (!c)`
+- This says, if `a = 0` then `y = not c`
+- If `a = 1` then go ahead and evaluate for b.
+  - If `b = 1` then `y = c`.
+  - If `b = 0` then go ahead and evaluate for c.
+    - If `c = 0` then `y = 0`
+    - If `c = 1` then `y = a`.
+
+- In general, this will be seen as 3 multiplexers.
+- But when simplified/optimised, the expresseion will come out to be ` y = a xnor b`.
+
 ## L2 – Introduction to optimisations (Part 2)
 
 ## L3 – Introduction to optimisations (Part 3)
