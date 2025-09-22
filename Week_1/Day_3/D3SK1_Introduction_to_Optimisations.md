@@ -55,32 +55,72 @@ If `A = 0` then
   - Retiming
   - Sequential Logic Cloning (FLoorplan Aware Synthesis)
  
-### Sequential Constant propagation
+### 4. Sequential Constant Propagation
 
-- In case of Sequential Circuits, constant propagation can relate to input being on constant, always on state of reset or changing state of set.
-- For example:-
-  - `DFF` connected with one input of `AND Gate`.
-  - If the input to `DFF` is always 0 then, no matter what the output of the end gate will always be 0.
-  - In that case, DFF is redundant, and can be optimised to just deliver 0 there.
-  - Meanwhile, there can be one more situation, input of `DFF` is changing, but reset is always on.
-  - In that case also, the output of `DFF` and `AND Gate` will remain zero.
-  - Similar optimisation can be performed.
+- **Definition:** An optimisation in sequential circuits where registers or logic driven by constant values are simplified or removed.  
+- **Key Idea:** If a register’s output is always constant (due to constant input or active reset), it can be optimised away.
 
-  - Another view, this time we have set signal, if my input to `DFF` is constant 0.
-  - Still, we can't go ahead and optimise it. Because the application of set signal can make the output of `DFF` high.
-  - And then it will again go to zero, in the next of removal of set signal.
- 
-  - So, such optimisation cannot be done just when input in constant, there are other signals too.
+---
+
+#### 📝 Examples
+
+1. **DFF with constant input (0) → AND gate**
+   - If the DFF input is always `0`, then its output will always be `0`.  
+   - The AND gate fed by this DFF will also always output `0`.  
+   - Result: The DFF is redundant and can be replaced with a constant `0`.
+
+---
+
+2. **DFF with changing input but reset always ON**
+   - Even if the input changes, the always-active reset keeps the DFF output at `0`.  
+   - The AND gate output will always be `0`.  
+   - Result: The DFF and subsequent logic can be replaced with constant `0`.
+
+---
+
+3. **DFF with constant input but set signal available**
+   - Suppose the input is constant `0`.  
+   - However, if a **set signal** exists, it can force the DFF output high temporarily.  
+   - This means the DFF output is not truly constant.  
+   - Result: Optimisation **cannot** be performed because the set signal can alter the output.
+
+---
+
+#### ⚖️ Takeaway
+Sequential constant propagation is more complex than combinational constant propagation.  
+It requires checking not just constant inputs but also the effect of **reset** and **set** signals before safely removing registers.
 
 ---
 
 ## L3 – Introduction to optimisations (Part 3)
 
-### Advanced Optimisations Technique
+### 🔧 Advanced Optimisation Techniques
 
 #### State Optimisation
-#### Retiming
-#### Sequential Logic Cloning
+- **Definition:** Reducing the number of states in a finite state machine (FSM) without changing its behavior.  
+- **Why:** Fewer states → fewer flip-flops → reduced area and sometimes power.  
+- **How:**
+  - State minimization (merging equivalent states).  
+  - State encoding (binary, one-hot, Gray, etc.).  
+- **Trade-off:** Smaller state count may increase transition logic complexity.  
 
+---
+
+#### Retiming
+- **Definition:** Moving flip-flops across combinational logic without changing functionality.  
+- **Why:** Balances delay between pipeline stages → higher clock frequency.  
+- **How:**
+  - Relocate registers to shorten critical paths.  
+  - Often automated during synthesis.  
+- **Trade-off:** Latency (pipeline depth) may change, but I/O behavior stays consistent.  
+
+---
+
+#### Sequential Logic Cloning
+- **Definition:** Duplicating registers that drive multiple high-fanout paths.  
+- **Why:** Reduces fanout load → improves timing closure.  
+- **How:**
+  - Create multiple identical registers closer to their destination logic.  
+- **Trade-off:** Area overhead (extra registers) but better performance.  
 
 ---
