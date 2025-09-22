@@ -51,7 +51,8 @@ write_verilog opt_check_gln.v
 module opt_check2 (input a , input b , output y);
 	assign y = a?1:b;
 endmodule
-```
+````
+
 - Here, we have a mux, when `a = 0`, `y = b` and when `a = 1`, `y = 1`.
 - This behaviour can be expressed as `y = a + a'b`
 - This is nother but `OR` of a and b.
@@ -65,15 +66,4 @@ Let's see what our synthesis tool do on this design.
 </p>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+----
