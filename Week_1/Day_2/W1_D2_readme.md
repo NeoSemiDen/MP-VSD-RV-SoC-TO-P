@@ -29,21 +29,17 @@ This day covers **timing libraries (.lib files)**, **hierarchical vs flat synthe
 ### 🔹 Skill 3 – Various Flop Coding Styles and Optimization
 | Lesson | Title |
 |--------|-------|
-| L1 | Why Flops and Flop Coding Styles (Part 1) |
-| L2 | Why Flops and Flop Coding Styles (Part 2) |
-| L3 | Lab – Flop Synthesis Simulations (Part 1) |
-| L4 | Lab – Flop Synthesis Simulations (Part 2) |
-| L5 | Interesting Optimisations (Part 1) |
-| L6 | Interesting Optimisations (Part 2) |
-
+| L1-L2 | Why Flops and Flop Coding Styles |
+| L3-L4 | Lab – Flop Synthesis Simulations |
+| L5-L6 | Interesting Optimisations |
 👉 [Read Notes](D2SK3_Flop_Coding_Styles_and_Optimisation.md)
 
 ---
 
 ## ✅ Progress Tracker
-- [ ] Skill 1 – Timing `.lib` Introduction  
-- [ ] Skill 2 – Hierarchical vs Flat Synthesis  
-- [ ] Skill 3 – Flop Coding Styles and Optimisation  
+- [x] Skill 1 – Timing `.lib` Introduction  
+- [x] Skill 2 – Hierarchical vs Flat Synthesis  
+- [x] Skill 3 – Flop Coding Styles and Optimisation  
 
 ---
 
