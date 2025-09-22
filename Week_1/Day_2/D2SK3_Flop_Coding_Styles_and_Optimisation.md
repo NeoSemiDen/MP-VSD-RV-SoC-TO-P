@@ -94,7 +94,7 @@ Let's see the simulation waveform and the graphical synthesised view of all thes
 #### Flip-FLop design with Synchronous Reset
 
 <p align="center">
-  <img src="../W1_images/syncres_wave.png" alt="syncres_wave.png" width="600" style="border:2px solid black;"/>
+  <img src="../W1_images/syncres_wave.png" alt="syncres_wave.png" width="800" style="border:2px solid black;"/>
   <br/>
   <em>Figure 1: Waveform of DFF with Synchronous Reset </em>
 </p>
