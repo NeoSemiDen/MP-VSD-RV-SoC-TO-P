@@ -57,7 +57,20 @@ If `A = 0` then
  
 ### Sequential Constant propagation
 
-Explanation Coming up.
+- In case of Sequential Circuits, constant propagation can relate to input being on constant, always on state of reset or changing state of set.
+- For example:-
+  - `DFF` connected with one input of `AND Gate`.
+  - If the input to `DFF` is always 0 then, no matter what the output of the end gate will always be 0.
+  - In that case, DFF is redundant, and can be optimised to just deliver 0 there.
+  - Meanwhile, there can be one more situation, input of `DFF` is changing, but reset is always on.
+  - In that case also, the output of `DFF` and `AND Gate` will remain zero.
+  - Similar optimisation can be performed.
+
+  - Another view, this time we have set signal, if my input to `DFF` is constant 0.
+  - Still, we can't go ahead and optimise it. Because the application of set signal can make the output of `DFF` high.
+  - And then it will again go to zero, in the next of removal of set signal.
+ 
+  - So, such optimisation cannot be done just when input in constant, there are other signals too.
 
 ---
 
