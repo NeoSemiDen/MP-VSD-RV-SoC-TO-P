@@ -32,6 +32,7 @@ This day covers **timing libraries (.lib files)**, **hierarchical vs flat synthe
 | L1-L2 | Why Flops and Flop Coding Styles |
 | L3-L4 | Lab – Flop Synthesis Simulations |
 | L5-L6 | Interesting Optimisations |
+
 👉 [Read Notes](D2SK3_Flop_Coding_Styles_and_Optimisation.md)
 
 ---
