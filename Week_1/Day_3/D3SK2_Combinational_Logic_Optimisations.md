@@ -113,5 +113,87 @@ Let's see what our synthesis tool do on this design.
   <em>Figure 4:  Yosys view of Optimisation of 2 MUX to a XNOR Gate  </em>
 </p>
 
+----
+
+**Number 5** - multiple_module_opt.v
+
+````Verilog
+module sub_module1(input a , input b , output y);
+ assign y = a & b;
+endmodule
+
+
+module sub_module2(input a , input b , output y);
+ assign y = a^b;
+endmodule
+
+
+module multiple_module_opt(input a , input b , input c , input d , output y);
+wire n1,n2,n3;
+
+sub_module1 U1 (.a(a) , .b(1'b1) , .y(n1));
+sub_module2 U2 (.a(n1), .b(1'b0) , .y(n2));
+sub_module2 U3 (.a(b), .b(d) , .y(n3));
+
+assign y = c | (b & n1); 
+
+
+endmodule
+````
+
+- Here, we have a design with multiple module.
+- We can notice that we have used 2 modules here, but when we flatten the design, we observe that `n1 = a` and n2 and n3 are never used.
+- So the output expression is `y = c or (a and b)`
+- These are the commands we run in the yosys to get view of its optimisation.
+  
+````bash
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_verilog multiple_module_opt.v 
+synth -top multiple_module_opt 
+flatten
+opt_clean -purge
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+show
+write_verilog multiple_module_opt_gln.v
+````
+
+
+<p align="center">
+  <img src="../W1_images/mult_module_opt_yosys.png" alt="mult_module_opt_yosys.png" width="600" style="border:2px solid black;"/>
+  <br/>
+  <em>Figure 5:  Yosys view of Optimisation of multiple modules to simple AND-OR function </em>
+</p>
+
+----
+
+**Number 6** - multiple_module_opt2.v
+
+````Verilog
+module sub_module(input a , input b , output y);
+ assign y = a & b;
+endmodule
+
+
+module multiple_module_opt2(input a , input b , input c , input d , output y);
+wire n1,n2,n3;
+
+sub_module U1 (.a(a) , .b(1'b0) , .y(n1));
+sub_module U2 (.a(b), .b(c) , .y(n2));
+sub_module U3 (.a(n2), .b(d) , .y(n3));
+sub_module U4 (.a(n3), .b(n1) , .y(y));
+
+endmodule
+````
+
+- Here, we have a design with multiple module.
+- We can notice that we have used 1 module and instantiated it 4 times. The operation performed by submodule is `AND`
+- Here, `n1 = 0` as one of the input is 0. In U4, where we have our output, one of the input is n1, this leads to the conclusion that `y = 0`.
+  
+
+<p align="center">
+  <img src="../W1_images/mult_module_opt2_yosys.png" alt="mult_module_opt2_yosys.png" width="600" style="border:2px solid black;"/>
+  <br/>
+  <em>Figure 5:  Yosys view of Optimisation of multiple modules to constant propagation to output </em>
+</p>
 
 ----
