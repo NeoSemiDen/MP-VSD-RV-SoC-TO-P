@@ -89,18 +89,34 @@ Next we will see the simulation waveform and Synthesized graphical represntation
 
 ## L3-L4 – Lab: Flop Synthesis Simulations
 
+Let's see the simulation waveform and the graphical synthesised view of all these flops we discussed.
+
+#### Flip-FLop design with Synchronous Reset
+
+<p align="center">
+  <img src="../W1_images/syncres_wave.png" alt="syncres_wave.png" width="600" style="border:2px solid black;"/>
+  <br/>
+  <em>Figure 1: Waveform of DFF with Synchronous Reset </em>
+</p>
+
+---
+
+<p align="center">
+  <img src="../W1_images/syncres_yosys.png" alt="syncres_yosys.png" width="600" style="border:2px solid black;"/>
+  <br/>
+  <em>Figure 2: Synthesized view of DFF with Synchronous Reset </em>
+</p>
+
+---
+
+#### Flip-FLop design with Asynchronous Reset
+
+
+#### Flip-FLop design with both
 
 
 
-
-
-
-
-
-
-
-
-
+#### Flip-FLop design with Asynchronous Set
 
 
 
