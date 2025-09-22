@@ -68,7 +68,7 @@ Let's see what our synthesis tool do on this design.
 
 ----
 
-**Number 4** - opt_check3.v
+**Number 3** - opt_check3.v
 
 ````Verilog
 module opt_check3 (input a , input b, input c , output y);
@@ -193,7 +193,7 @@ endmodule
 <p align="center">
   <img src="../W1_images/mult_module_opt2_yosys.png" alt="mult_module_opt2_yosys.png" width="600" style="border:2px solid black;"/>
   <br/>
-  <em>Figure 5:  Yosys view of Optimisation of multiple modules to constant propagation to output </em>
+  <em>Figure 6:  Yosys view of Optimisation of multiple modules to constant propagation to output </em>
 </p>
 
 ----
