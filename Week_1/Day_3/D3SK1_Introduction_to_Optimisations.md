@@ -43,6 +43,31 @@ If `A = 0` then
 - In general, this will be seen as 3 multiplexers.
 - But when simplified/optimised, the expresseion will come out to be ` y = a xnor b`.
 
+---
+
 ## L2 – Introduction to optimisations (Part 2)
 
+### Sequential Logic Optimisations
+- Basic
+  - Sequential Constant propagation
+- Advanced
+  - State optimisation
+  - Retiming
+  - Sequential Logic Cloning (FLoorplan Aware Synthesis)
+ 
+### Sequential Constant propagation
+
+Explanation Coming up.
+
+---
+
 ## L3 – Introduction to optimisations (Part 3)
+
+### Advanced Optimisations Technique
+
+#### State Optimisation
+#### Retiming
+#### Sequential Logic Cloning
+
+
+---
