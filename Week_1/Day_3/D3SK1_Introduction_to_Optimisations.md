@@ -103,6 +103,10 @@ It requires checking not just constant inputs but also the effect of **reset** a
   - State minimization (merging equivalent states).  
   - State encoding (binary, one-hot, Gray, etc.).  
 - **Trade-off:** Smaller state count may increase transition logic complexity.  
+- **Example:**  
+  - Original FSM has states: `IDLE`, `READ`, `WRITE`, `WAIT`, `WAIT_ACK`  
+  - After merging equivalent states `WAIT` and `WAIT_ACK` → fewer flip-flops required.  
+  - Hardware area reduces, logic simpler.
 
 ---
 
@@ -113,7 +117,11 @@ It requires checking not just constant inputs but also the effect of **reset** a
   - Relocate registers to shorten critical paths.  
   - Often automated during synthesis.  
 - **Trade-off:** Latency (pipeline depth) may change, but I/O behavior stays consistent.  
-
+- **Example:**  
+  - Consider a 3-stage combinational logic pipeline: `A -> B -> C`.  
+  - Critical path: A → B → C → slow clock.  
+  - Retiming: Move registers between B and C → shorter critical path → higher clock frequency.
+  
 ---
 
 #### Sequential Logic Cloning
@@ -122,5 +130,12 @@ It requires checking not just constant inputs but also the effect of **reset** a
 - **How:**
   - Create multiple identical registers closer to their destination logic.  
 - **Trade-off:** Area overhead (extra registers) but better performance.  
+- **Example:**  
+  - A single register feeds 10 AND gates across the design → long routing delay.  
+  - Clone the register closer to 5 of the AND gates each → reduced fanout per register → timing improved.  
+
+---
+
+These advanced Optimisation Techniques won't be demonstrated in the labs.
 
 ---
