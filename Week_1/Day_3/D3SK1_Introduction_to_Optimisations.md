@@ -19,8 +19,11 @@
 ### Constant Propagation: Example
 
 `Y = NOT ((A AND B) OR C)`
+
 If `A = 0` then
+
 `Y = NOT (( 0 ) OR C)`
+
 `Y = NOT C`
 
 - It is optimised when A never chnages and is always 0.
