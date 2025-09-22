@@ -111,14 +111,55 @@ Let's see the simulation waveform and the graphical synthesised view of all thes
 
 #### Flip-FLop design with Asynchronous Reset
 
+<p align="center">
+  <img src="../W1_images/asyncres_wave.png" alt="asyncres_wave.png" width="800" style="border:2px solid black;"/>
+  <br/>
+  <em>Figure 3: Waveform of DFF with Asynchronous Reset </em>
+</p>
+
+---
+
+<p align="center">
+  <img src="../W1_images/asyncres_yosys.png" alt="asyncres_yosys.png" width="600" style="border:2px solid black;"/>
+  <br/>
+  <em>Figure 4: Synthesized view of DFF with Asynchronous Reset </em>
+</p>
+
+---
 
 #### Flip-FLop design with both
 
+<p align="center">
+  <img src="../W1_images/asyncres_syncres_wave.png" alt="syncres_wave.png" width="800" style="border:2px solid black;"/>
+  <br/>
+  <em>Figure 5: Waveform of DFF with both type of Reset </em>
+</p>
 
+---
+
+<p align="center">
+  <img src="../W1_images/asyncres_syncres_yosys.png" alt="syncres_yosys.png" width="600" style="border:2px solid black;"/>
+  <br/>
+  <em>Figure 6: Synthesized view of DFF with both type of Reset </em>
+</p>
+
+---
 
 #### Flip-FLop design with Asynchronous Set
 
+<p align="center">
+  <img src="../W1_images/async_set_wave.png" alt="syncres_wave.png" width="800" style="border:2px solid black;"/>
+  <br/>
+  <em>Figure 7: Waveform of DFF with Asynchronous Set </em>
+</p>
 
+---
+
+<p align="center">
+  <img src="../W1_images/asyn_set_yosys.png" alt="syncres_yosys.png" width="600" style="border:2px solid black;"/>
+  <br/>
+  <em>Figure 8: Synthesized view of DFF with Asynchronous Set </em>
+</p>
 
 
 
