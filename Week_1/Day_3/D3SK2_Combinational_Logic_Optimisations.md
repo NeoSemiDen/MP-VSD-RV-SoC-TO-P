@@ -54,8 +54,8 @@ endmodule
 ````
 
 - Here, we have a mux, when `a = 0`, `y = b` and when `a = 1`, `y = 1`.
-- This behaviour can be expressed as `y = a + a'b`
-- This is nother but `OR` of a and b.
+- This behaviour can be expressed as `y = a or ((not a) and b)`
+- This is nothing but `OR` of a and b.
 
 Let's see what our synthesis tool do on this design. 
 
@@ -63,6 +63,54 @@ Let's see what our synthesis tool do on this design.
   <img src="../W1_images/opt_check2_yosys.png" alt="opt_check2_yosys" width="600" style="border:2px solid black;"/>
   <br/>
   <em>Figure 2: Yosys view of Optimisation of a MUX to an OR Gate </em>
+</p>
+
+
+----
+
+**Number 4** - opt_check3.v
+
+````Verilog
+module opt_check3 (input a , input b, input c , output y);
+	assign y = a?(c?b:0):0;
+endmodule
+````
+
+- Here, we have a mux, when `a = 0`, `y = 0` and
+- When `a = 1`, we look into c.
+  - If `c = 1`, then `y = b` else `y = 0`
+- This behaviour can be expressed as `y = a and ( c and b)`
+- This is nothing but `AND` of a, b, and c.
+
+Let's see what our synthesis tool do on this design. 
+
+<p align="center">
+  <img src="../W1_images/opt_check3_yosys.png" alt="opt_check3_yosys" width="600" style="border:2px solid black;"/>
+  <br/>
+  <em>Figure 3: Yosys view of Optimisation of 2 MUX to a 3-input AND Gate </em>
+</p>
+
+
+----
+
+**Number 4** - opt_check4.v
+
+````Verilog
+module opt_check4 (input a , input b , input c , output y);
+	assign y = a?(b?(a & c ):c):(!c);
+endmodule
+````
+
+- Here, we have a mux, when `a = 0`, `y = not c` and
+- When `a = 1`, we look into b.
+  - If `b = 1`, then `y = a and c` else `y = c`
+This simplifies as `XNOR Gate` only.
+Let's see what our synthesis tool do on this design. 
+
+<p align="center">
+  <img src="../W1_images/opt_check4_yosys.png" alt="opt_check4_yosys" width="600" style="border:2px solid black;"/>
+  <br/>
+  <em>Figure 4:  Yosys view of Optimisation of 2 MUX to a XNOR Gate  </em>
 </p>
 
 
