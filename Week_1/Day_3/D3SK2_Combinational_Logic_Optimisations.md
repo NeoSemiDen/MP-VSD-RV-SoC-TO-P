@@ -104,8 +104,8 @@ endmodule
 - Here, we have a mux, when `a = 0`, `y = not c` and
 - When `a = 1`, we look into b.
   - If `b = 1`, then `y = a and c` else `y = c`
-This simplifies as `XNOR Gate` only.
-Let's see what our synthesis tool do on this design. 
+- This simplifies as `XNOR Gate` only - `y = a xnor c`.
+- Let's see what our synthesis tool do on this design. 
 
 <p align="center">
   <img src="../W1_images/opt_check4_yosys.png" alt="opt_check4_yosys" width="600" style="border:2px solid black;"/>
