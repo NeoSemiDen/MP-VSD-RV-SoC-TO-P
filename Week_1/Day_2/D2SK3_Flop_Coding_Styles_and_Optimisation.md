@@ -211,9 +211,9 @@ endmodule
 
 - 2 copies of a as we thought of.
 
-  ---
+---
 
-  This was it with some of the intresting optimisations. There will be more.
+This was it with some of the intresting optimisations. There will be more.
 
 
 ---
