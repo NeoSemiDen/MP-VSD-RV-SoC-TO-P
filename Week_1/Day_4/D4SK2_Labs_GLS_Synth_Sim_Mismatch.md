@@ -29,7 +29,7 @@ gtkwave tb_ternary_operator_mux.vcd
 ````
 
 <p align="center">
-  <img src="../W1_images/ter_mux_rtlsim.png" alt="ter_mux_rtlsim.png" width="600" style="border:2px solid black;"/>
+  <img src="../W1_images/ter_mux_rtlsim.png" alt="ter_mux_rtlsim.png" width="1100" style="border:2px solid black;"/>
   <br/>
   <em>Figure 1: RTL Simulation of the above mux design</em>
 </p>
@@ -42,6 +42,8 @@ gtkwave tb_ternary_operator_mux.vcd
   <em>Figure 2: Yosys representation of the synthesized design - ternary_operator_mux.v</em>
 </p>
 
+---
+
 **For GLS:**
 ````bash
 iverilog ../my_lib/verilog_model/primitives.v  ../my_lib/verilog_model/sky130_fd_sc_hd.v ternary_operator_mux_gln.v tb_ternary_operator_mux.v
@@ -50,7 +52,7 @@ gtkwave tb_ternary_operator_mux.vcd
 ````
 
 <p align="center">
-  <img src="../W1_images/ter_mux_gls.png" alt="ter_mux_gls.png" width="600" style="border:2px solid black;"/>
+  <img src="../W1_images/ter_mux_gls.png" alt="ter_mux_gls.png" width="1100" style="border:2px solid black;"/>
   <br/>
   <em>Figure 1: Gate Level Simulation of the above mux design</em>
 </p>
