@@ -41,4 +41,8 @@
 
 ----
 
+- 📄 [Go to Day 1 Skill 2](./D1SK2_Labs_with_Iverilog_and_GTKWave.md)
+- 📄 [Go to Week 1 Day 1 details](./W1_D1_readme.md)
+- 📄 [Go to Week 1 details](../Week_1_readme.md)
+
 
