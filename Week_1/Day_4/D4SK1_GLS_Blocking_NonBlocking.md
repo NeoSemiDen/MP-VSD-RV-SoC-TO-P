@@ -20,7 +20,7 @@
 ---
 
 <p align="center">
-  <img src="../W1_images/GLSiverilog.png" alt="GLSiverilog.png" width="600" style="border:2px solid black;"/>
+  <img src="../W1_images/GLSiverilog.png" alt="GLSiverilog.png" width="1000" style="border:2px solid black;"/>
   <br/>
   <em>Figure 1: Iverilog setup for Gate Level Simulation</em>
 </p>
