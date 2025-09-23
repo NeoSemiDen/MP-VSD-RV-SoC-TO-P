@@ -63,9 +63,9 @@ This day focuses on **synthesis optimization techniques**, including **IF-CASE c
 ---
 
 ## ✅ Progress Tracker
-- [ ] Skill 1 – IF CASE Constructs  
-- [ ] Skill 2 – Labs on Incomplete IF  
-- [ ] Skill 3 – Labs on Incomplete Overlapping CASE  
+- [x] Skill 1 – IF CASE Constructs  
+- [x] Skill 2 – Labs on Incomplete IF  
+- [x] Skill 3 – Labs on Incomplete Overlapping CASE  
 - [ ] Skill 4 – For Loop and For Generate  
 - [ ] Skill 5 – Labs on For Loop and For Generate  
 
