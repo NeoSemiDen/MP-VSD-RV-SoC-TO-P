@@ -43,7 +43,7 @@ show
 ---
 
 <p align="center">
-  <img src="../W1_images/counter_opt_yosys.png" alt="counter_opt_yosys.png" width="600" style="border:2px solid black;"/>
+  <img src="../W1_images/counter_opt_yosys.png" alt="counter_opt_yosys.png" width="1000" style="border:2px solid black;"/>
   <br/>
   <em>Figure 1: Yosys view of Optimisation of counter_opt </em>
 </p>
@@ -75,7 +75,7 @@ Let's see what our synthesis tool do on this design.
 ---
 
 <p align="center">
-  <img src="../W1_images/counter_opt2_yosys.png" alt="counter_opt2_yosys.png" width="600" style="border:2px solid black;"/>
+  <img src="../W1_images/counter_opt2_yosys.png" alt="counter_opt2_yosys.png" width="1000" style="border:2px solid black;"/>
   <br/>
   <em>Figure 2: Yosys view of Optimisation of counter_opt2 </em>
 </p>
