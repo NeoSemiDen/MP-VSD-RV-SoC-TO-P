@@ -21,8 +21,7 @@ This day focuses on **Gate-Level Simulation (GLS)**, understanding **synthesis v
 ### 🔹 Skill 2 – Labs on GLS and Synthesis-Simulation Mismatch
 | Lesson | Title |
 |--------|-------|
-| L1 | Lab – GLS Synthesis Simulation Mismatch (Part 1) |
-| L2 | Lab – GLS Synthesis Simulation Mismatch (Part 2) |
+| L1-L2 | Lab – GLS Synthesis Simulation Mismatch |
 
 👉 [Read Notes](D4SK2_Labs_GLS_Synth_Sim_Mismatch.md)
 
@@ -31,8 +30,7 @@ This day focuses on **Gate-Level Simulation (GLS)**, understanding **synthesis v
 ### 🔹 Skill 3 – Labs on Synth-Sim Mismatch for Blocking Statements
 | Lesson | Title |
 |--------|-------|
-| L1 | Lab – Synthesis vs Simulation Mismatch Blocking Statement (Part 1) |
-| L2 | Lab – Synthesis vs Simulation Mismatch Blocking Statement (Part 2) |
+| L1-L2 | Lab – Synthesis vs Simulation Mismatch Blocking Statement |
 
 👉 [Read Notes](D4SK3_Labs_SynthSim_Mismatch_Blocking.md)
 
@@ -40,8 +38,8 @@ This day focuses on **Gate-Level Simulation (GLS)**, understanding **synthesis v
 
 ## ✅ Progress Tracker
 - [x] Skill 1 – GLS, Synthesis-Simulation, and Blocking/Non-blocking  
-- [ ] Skill 2 – Labs on GLS and Synth-Sim Mismatch  
-- [ ] Skill 3 – Labs on Synth-Sim Mismatch for Blocking Statements  
+- [x] Skill 2 – Labs on GLS and Synth-Sim Mismatch  
+- [x] Skill 3 – Labs on Synth-Sim Mismatch for Blocking Statements  
 
 ---
 
