@@ -76,9 +76,8 @@ end
 endmodule
 ````
 
-- Here, we have a mux, when `a = 0`, `y = b` and when `a = 1`, `y = 1`.
-- This behaviour can be expressed as `y = a or ((not a) and b)`
-- This is nothing but `OR` of a and b.
+- Here, we have a dff with output assigned to 1 in both cases, application of reset or normal operation.
+- This should synthesis as a constant propagation to the output `q = 1`.
 
 Let's see what our synthesis tool do on this design. 
 
@@ -87,6 +86,10 @@ Let's see what our synthesis tool do on this design.
   <br/>
   <em>Figure 3: Simulation of above design - dff_const2.v </em>
 </p>
+
+- Here we can see that with reset or without reset, the output is 1.
+
+---
 
 <p align="center">
   <img src="../W1_images/dff_const2_yosys.png" alt="dff_const2_yosys.png" width="600" style="border:2px solid black;"/>
