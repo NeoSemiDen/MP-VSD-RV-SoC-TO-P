@@ -123,11 +123,11 @@ end
 endmodule
 ````
 
-- Here, we have a mux, when `a = 0`, `y = 0` and
-- When `a = 1`, we look into c.
-  - If `c = 1`, then `y = b` else `y = 0`
-- This behaviour can be expressed as `y = a and ( c and b)`
-- This is nothing but `AND` of a, b, and c.
+- Here, in ths dff design, we can see that without reset, under normal operation, value of q1 is assigned to q.
+- Now when reset is applied, q is assigned 1, like set behaviour.
+- when reset is released, for one cycle, `q1 = 0` and then q goes to 0, just after that, q goes high again.
+- Here under both reset and normal operation, q is 1 except when reset is released.
+- This might synthesis as a reset flop, followed by set flop.
 
 Let's see what our synthesis tool do on this design. 
 
@@ -136,6 +136,10 @@ Let's see what our synthesis tool do on this design.
   <br/>
   <em>Figure 5: Simulation of above design - dff_const3.v </em>
 </p>
+
+- We can observe the similar behaviour discussed above.
+
+---
 
 <p align="center">
   <img src="../W1_images/dff_const3_yosys.png" alt="dff_const3_yosys.png" width="600" style="border:2px solid black;"/>
@@ -169,17 +173,18 @@ end
 endmodule
 ````
 
-- Here, we have a mux, when `a = 0`, `y = not c` and
-- When `a = 1`, we look into b.
-  - If `b = 1`, then `y = a and c` else `y = c`
-- This simplifies as `XNOR Gate` only - `y = a xnor c`.
-- Let's see what our synthesis tool do on this design. 
+- Here, in this flip-flop design, we can see that no matter what, q is assigned to 1, wither under reset application directly or through q1 under normal operation.
+- So this should again synthesis as constant propagation of 1, without dff element.
 
 <p align="center">
   <img src="../W1_images/dff_const4_wave.png" alt="dff_const4_wave.png" width="600" style="border:2px solid black;"/>
   <br/>
   <em>Figure 7: Simulation of above design - dff_const4.v </em>
 </p>
+
+- Constant value of q can be observed here.
+
+---
 
 <p align="center">
   <img src="../W1_images/dff_const4_yosys.png" alt="dff_const4_yosys.png" width="600" style="border:2px solid black;"/>
@@ -213,10 +218,10 @@ end
 endmodule
 ````
 
-- Here, we have a design with multiple module.
-- We can notice that we have used 2 modules here, but when we flatten the design, we observe that `n1 = a` and n2 and n3 are never used.
-- So the output expression is `y = c or (a and b)`
-- These are the commands we run in the yosys to get view of its optimisation.
+- Here, we have similar design as dff_const3 but the followed flop is also reset here.
+- So under reset both q and q1 are assigned to 0 and under normal operation q1 is assigned 1 and q is assigned q.
+- This is under the delay of 1 cycle as q will be assigned 0 only when reset is released.
+- So under reset, output is 0 and when reset is released, the next to next positive edge we have 1 assigned to q.
   
 <p align="center">
   <img src="../W1_images/dff_const5_wave.png" alt="dff_const5_wave.png" width="600" style="border:2px solid black;"/>
@@ -224,11 +229,12 @@ endmodule
   <em>Figure 9: Simulation of above design - dff_const5.v </em>
 </p>
 
+---
+
 <p align="center">
   <img src="../W1_images/dff_const5_yosys.png" alt="dff_const5_yosys.png" width="600" style="border:2px solid black;"/>
   <br/>
   <em>Figure 10: Yosys view of Optimisation of dff_const5.v </em>
 </p>
-
 
 ----
