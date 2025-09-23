@@ -118,6 +118,11 @@ gtkwave tb_bad_mux.vcd
   <em>Figure 5: Gate Level Simulation of the bad mux design</em>
 </p>
 
+---
+
+- Now, when we compare Figure 4 and 5, we notice huge difference, Waveform in Figure 5 properly dehaves as a mux but that's not the case with RTL simulation of this design.
+- In RTL Simulation, output only changes when `sel` signal changes.
+- This is a clear example of Synthesis Simulation Mismatch.
 
 
 
