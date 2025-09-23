@@ -104,7 +104,7 @@ endmodule
 ## L4 – Caveats with Blocking Statements
 
 
-#### 1. Trying to implement Shify Register
+#### 1. Trying to implement Shift Register
 ````Verilog
 module code (input clk,
             input reset,
@@ -118,16 +118,76 @@ always@(posedge clk or posedge reset) begin
     q0 = 1'b0;
     q1 = 1'b0;
   end else begin
-    q = q0;
-    q0 = d;
+    q = q0; //S1
+    q0 = d; //S2
   end
 end
 
 endmodule     
 ````
 
+````Verilog
+module code (input clk,
+            input reset,
+            input d,
+            output reg q);
 
+reg q0;
 
+always@(posedge clk or posedge reset) begin
+  if (reset) begin
+    q0 = 1'b0;
+    q1 = 1'b0;
+  end else begin
+    q0 = d;  //S3
+    q = q0;  //S4
+    
+  end
+end
+
+endmodule     
+````
+
+---
+
+#### 2. Causing Synthesis Simulation Mismatch
+
+````Verilog
+// Design 1
+module code(input a, b, c,
+      output reg y);
+
+reg q0;
+always@(*) begin
+    y = q0 & c; 
+    q0 = a | b;
+end
+
+endmodule
+````
+
+- Here, q0 value is the old q0 value, mimicing a delays/flop.
+
+After changing the order,
+
+````Verilog
+// Design 2
+module code(input a, b, c,
+      output reg y);
+
+reg q0;
+always@(*) begin
+    q0 = a | b;
+    y = q0 & c;
+end
+
+endmodule
+````
+- Now, the latest value of q0 is given to expression of y causing no mismatch.
+
+- Both the design 1 and 2 will syntheize to same circuit, leading to synthesis simulation mismatch in design 1 as it behaves like it contains flop.
+
+---
 
 
 
