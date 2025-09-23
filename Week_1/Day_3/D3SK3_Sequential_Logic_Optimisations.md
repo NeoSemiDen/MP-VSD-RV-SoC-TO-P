@@ -45,6 +45,8 @@ abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 show
 ````
 
+---
+
 <p align="center">
   <img src="../W1_images/dff_const1_wave.png" alt="dff_const1_wave.png" width="600" style="border:2px solid black;"/>
   <br/>
@@ -80,6 +82,8 @@ endmodule
 - This should synthesis as a constant propagation to the output `q = 1`.
 
 Let's see what our synthesis tool do on this design. 
+
+---
 
 <p align="center">
   <img src="../W1_images/dff_const2_wave.png" alt="dff_const2_wave.png" width="600" style="border:2px solid black;"/>
@@ -131,6 +135,8 @@ endmodule
 
 Let's see what our synthesis tool do on this design. 
 
+---
+
 <p align="center">
   <img src="../W1_images/dff_const3_wave.png" alt="dff_const3_wave.png" width="600" style="border:2px solid black;"/>
   <br/>
@@ -175,6 +181,8 @@ endmodule
 
 - Here, in this flip-flop design, we can see that no matter what, q is assigned to 1, wither under reset application directly or through q1 under normal operation.
 - So this should again synthesis as constant propagation of 1, without dff element.
+
+---
 
 <p align="center">
   <img src="../W1_images/dff_const4_wave.png" alt="dff_const4_wave.png" width="600" style="border:2px solid black;"/>
@@ -222,6 +230,8 @@ endmodule
 - So under reset both q and q1 are assigned to 0 and under normal operation q1 is assigned 1 and q is assigned q.
 - This is under the delay of 1 cycle as q will be assigned 0 only when reset is released.
 - So under reset, output is 0 and when reset is released, the next to next positive edge we have 1 assigned to q.
+
+---
   
 <p align="center">
   <img src="../W1_images/dff_const5_wave.png" alt="dff_const5_wave.png" width="600" style="border:2px solid black;"/>
