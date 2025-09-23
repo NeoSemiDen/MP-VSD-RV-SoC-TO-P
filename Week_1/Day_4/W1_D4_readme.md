@@ -39,7 +39,7 @@ This day focuses on **Gate-Level Simulation (GLS)**, understanding **synthesis v
 ---
 
 ## ✅ Progress Tracker
-- [ ] Skill 1 – GLS, Synthesis-Simulation, and Blocking/Non-blocking  
+- [x] Skill 1 – GLS, Synthesis-Simulation, and Blocking/Non-blocking  
 - [ ] Skill 2 – Labs on GLS and Synth-Sim Mismatch  
 - [ ] Skill 3 – Labs on Synth-Sim Mismatch for Blocking Statements  
 
