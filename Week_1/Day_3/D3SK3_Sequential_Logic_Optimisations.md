@@ -38,8 +38,7 @@ Let's see what our synthesis tool do on this design.
 ````bash
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
 read_verilog dff_const1.v 
-synth -top dff_const1 
-dfflibmap ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+synth -top dff_const1
 dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
 show
