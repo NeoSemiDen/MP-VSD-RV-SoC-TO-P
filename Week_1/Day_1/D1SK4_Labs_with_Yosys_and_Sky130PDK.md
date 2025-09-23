@@ -84,7 +84,7 @@ write_verilog -noattr good_mux_gln.v
 
 ---
 
-- 📄 [Go to Day 2 Skill 1](./D2SK1_Introduction_to_dot_lib.md)
+- 📄 [Go to Day 2 Skill 1](../Day_2/D2SK1_Introduction_to_dot_lib.md)
 - 📄 [Go to Week 1 Day 1 details](./W1_D1_readme.md)
 - 📄 [Go to Week 1 details](../Week_1_readme.md)
 
