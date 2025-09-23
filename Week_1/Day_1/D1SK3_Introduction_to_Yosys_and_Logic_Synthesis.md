@@ -99,6 +99,13 @@
   <em>Figure 3: Illustration of Synthesis</em>
 </p>
 
+---
+
+- 📄 [Go to Day 1 Skill 4](./D1SK4_Labs_with_Yosys_and_Sky130PDK.md)
+- 📄 [Go to Week 1 Day 1 details](./W1_D1_readme.md)
+- 📄 [Go to Week 1 details](../Week_1_readme.md)
+
+
 
 
 
