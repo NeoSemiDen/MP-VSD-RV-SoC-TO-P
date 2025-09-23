@@ -29,9 +29,7 @@ This day focuses on **RTL optimizations**, covering **combinational logic optimi
 ### 🔹 Skill 3 – Sequential Logic Optimizations
 | Lesson | Title |
 |--------|-------|
-| L1 | Lab07 – Sequential Logic Optimisations (Part 1) |
-| L2 | Lab07 – Sequential Logic Optimisations (Part 2) |
-| L3 | Lab07 – Sequential Logic Optimisations (Part 3) |
+| L1-L3 | Lab07 – Sequential Logic Optimisations |
 
 👉 [Read Notes](D3SK3_Sequential_Logic_Optimisations.md)
 
