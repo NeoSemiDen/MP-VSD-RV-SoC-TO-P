@@ -79,7 +79,7 @@ endmodule
 - So in this design, we have counter with all 3 bits used and compare logic to get output value.
 
 Let's see what our synthesis tool do on this design. 
-0
+
 ---
 
 <p align="center">
