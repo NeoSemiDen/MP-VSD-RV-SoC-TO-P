@@ -47,7 +47,7 @@ This week lays the foundation for RTL design, timing-aware synthesis, optimizati
 - [x] Day 1 – Introduction to Verilog RTL Design and Synthesis  
 - [x] Day 2 – Timing Libraries, Hierarchical vs Flat Synthesis, and Efficient Flop Coding Styles  
 - [x] Day 3 – Combinational and Sequential Optimizations  
-- [ ] Day 4 – GLS, Blocking vs Non-blocking, and Synthesis-Simulation Mismatch  
+- [x] Day 4 – GLS, Blocking vs Non-blocking, and Synthesis-Simulation Mismatch  
 - [ ] Day 5 – Optimization in Synthesis  
 
 ---
