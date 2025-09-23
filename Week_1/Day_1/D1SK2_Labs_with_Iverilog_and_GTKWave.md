@@ -111,3 +111,8 @@ endmodule
 ````
 
 ---
+
+- 📄 [Go to Day 1 Skill 2](./D1SK3_Introduction_to_Yosys_and_Logic_Synthesis.md)
+- 📄 [Go to Week 1 Day 1 details](./W1_D1_readme.md)
+- 📄 [Go to Week 1 details](../Week_1_readme.md)
+
