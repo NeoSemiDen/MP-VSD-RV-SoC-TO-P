@@ -41,7 +41,7 @@ This is a high-level overview of my weekly progress. For detailed notes, please 
 |[**Week 1**](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_1/Week_1_readme.md)| Day 1 |**Introduction to Verilog RTL design and synthesis**|✅ Completed|[Details](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_1/Day_1/W1_D1_readme.md)|
 || Day 2 | **Timing Libs** <br> **Hierarchical vs. Flat Synthesis** <br> **Various Flop Coding Styles and optimization** |✅ Completed|[Details](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_1/Day_2/W1_D2_readme.md)|
 || Day 3 |**Combinational and Sequential Optimizations**|✅ Completed|[Details](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_1/Day_3/W1_D3_readme.md)|
-|| Day 4 |**Gate Level Simulation (GLS)** <br> **Blocking and Non-blocking Statements** <br> **Synthesis-Simulation Mismatch**|🚧 In Progress|[Details](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_1/Day_4/W1_D4_readme.md)|
-|| Day 5 |**Optimization in Synthesis**|⏳ Pending|[Details](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_1/Day_5/W1_D5_readme.md)|
+|| Day 4 |**Gate Level Simulation (GLS)** <br> **Blocking and Non-blocking Statements** <br> **Synthesis-Simulation Mismatch**|✅ Completed|[Details](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_1/Day_4/W1_D4_readme.md)|
+|| Day 5 |**Optimization in Synthesis**|🚧 In Progress|[Details](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_1/Day_5/W1_D5_readme.md)|
 ---
 
