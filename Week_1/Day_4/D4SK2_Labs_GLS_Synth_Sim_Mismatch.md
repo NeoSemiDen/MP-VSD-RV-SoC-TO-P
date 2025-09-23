@@ -18,6 +18,16 @@ endmodule
 
 - Here, when `sel = 1`, `y = i1` and when `sel = 0`, `y = i0`.
 
+---
+
+<p align="center">
+  <img src="../W1_images/ter_mux_yosys.png" alt="ter_mux_yosys.png" width="600" style="border:2px solid black;"/>
+  <br/>
+  <em>Figure 1: Yosys representation of the synthesized design - ternary_operator_mux.v</em>
+</p>
+
+---
+
 We will perform RTL Simulation and Gate Level Simulation for this design and compare the results to check for synthesis-simulation mismatch.
 ---
 
@@ -28,18 +38,12 @@ iverilog ternary_operator_mux.v tb_ternary_operator_mux.v
 gtkwave tb_ternary_operator_mux.vcd
 ````
 
-<p align="center">
-  <img src="../W1_images/ter_mux_rtlsim.png" alt="ter_mux_rtlsim.png" width="1100" style="border:2px solid black;"/>
-  <br/>
-  <em>Figure 1: RTL Simulation of the above mux design</em>
-</p>
-
 ---
 
 <p align="center">
-  <img src="../W1_images/ter_mux_yosys.png" alt="ter_mux_yosys.png" width="600" style="border:2px solid black;"/>
+  <img src="../W1_images/ter_mux_rtlsim.png" alt="ter_mux_rtlsim.png" width="1100" style="border:2px solid black;"/>
   <br/>
-  <em>Figure 2: Yosys representation of the synthesized design - ternary_operator_mux.v</em>
+  <em>Figure 2: RTL Simulation of the above mux design</em>
 </p>
 
 ---
@@ -54,12 +58,65 @@ gtkwave tb_ternary_operator_mux.vcd
 <p align="center">
   <img src="../W1_images/ter_mux_gls.png" alt="ter_mux_gls.png" width="1100" style="border:2px solid black;"/>
   <br/>
-  <em>Figure 1: Gate Level Simulation of the above mux design</em>
+  <em>Figure 3: Gate Level Simulation of the above mux design</em>
 </p>
 
 ---
 
+We can compare waveform in Figure 2 and Figure 3 and see that it matches perfectly.
 
+---
+
+Now we will go ahead and see a design that will lead to synthesis-simulation mismatch.
+
+#### Bad Design - bad_mux.v
+
+````Verilog
+module bad_mux (input i0 , input i1 , input sel , output reg y);
+always @ (sel)
+begin
+	if(sel)
+		y <= i1;
+	else 
+		y <= i0;
+end
+endmodule
+````
+
+- Previously, we had discussed the problem with this design, missing sensitivity list.
+
+Let's perform RTL Simulation and Gate Level Simulation for this design and compare the results to check for synthesis-simulation mismatch.
+---
+
+**For RTL Simulation:**
+````bash
+iverilog bad_mux.v tb_bad_mux.v 
+./a.out 
+gtkwave tb_bad_mux.vcd
+````
+
+---
+
+<p align="center">
+  <img src="../W1_images/bad_mux_rtlsim.png" alt="bad_mux_rtlsim.png" width="1100" style="border:2px solid black;"/>
+  <br/>
+  <em>Figure 4: RTL Simulation of the bad mux design</em>
+</p>
+
+---
+
+**For GLS:**
+````bash
+iverilog ../my_lib/verilog_model/primitives.v  ../my_lib/verilog_model/sky130_fd_sc_hd.v bad_mux_gln.v tb_bad_mux.v
+./a.out 
+gtkwave tb_bad_mux.vcd
+````
+
+<p align="center">
+  <img src="../W1_images/bad_mux_gls.png" alt="bad_mux_gls.png" width="1100" style="border:2px solid black;"/>
+  <br/>
+  <em>Figure 5: Gate Level Simulation of the bad mux design</em>
+</p>
 
 
 
