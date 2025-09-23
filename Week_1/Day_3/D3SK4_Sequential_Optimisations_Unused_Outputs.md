@@ -27,7 +27,12 @@ end
 
 endmodule
 ````
-- Here, 
+- Here, we have internal 3-bit counter, now from this counter, `bit 0` is assigned to the output q.
+- In counter, `bit 0` toggles every cycles. `bit 1` and `bit 2` are unused in this design.
+- So this seems like a flip-flop followed by a inverter connected back to flipflop's input.
+- Unused outputs are avoided in synthesis.
+
+
 Let's see what our synthesis tool do on this design.
 - Being present in verilog_files folder as in previous labs, we will execute these commands.
 
@@ -68,10 +73,13 @@ end
 endmodule
 ````
 
--
+- Here, in this design, output q is 1 when the value on counter is `3'b100`.
+- So we need all the bits of counter to compare against it.
+- So, it becomes essential for counter logic to be synthesized as counter, unlike the last design when counter logic did not got synthesized as counter.
+- So in this design, we have counter with all 3 bits used and compare logic to get output value.
 
 Let's see what our synthesis tool do on this design. 
-
+0
 ---
 
 <p align="center">
