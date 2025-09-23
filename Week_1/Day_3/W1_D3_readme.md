@@ -38,18 +38,17 @@ This day focuses on **RTL optimizations**, covering **combinational logic optimi
 ### 🔹 Skill 4 – Sequential Optimizations for Unused Outputs
 | Lesson | Title |
 |--------|-------|
-| L1 | Sequential optimisation – unused outputs (Part 1) |
-| L2 | Sequential optimisation – unused outputs (Part 2) |
+| L1-L2 | Sequential optimisation – unused outputs |
 
 👉 [Read Notes](D3SK4_Sequential_Optimisations_Unused_Outputs.md)
 
 ---
 
 ## ✅ Progress Tracker
-- [ ] Skill 1 – Introduction to Optimizations  
-- [ ] Skill 2 – Combinational Logic Optimizations  
-- [ ] Skill 3 – Sequential Logic Optimizations  
-- [ ] Skill 4 – Sequential Optimizations for Unused Outputs  
+- [x] Skill 1 – Introduction to Optimizations  
+- [x] Skill 2 – Combinational Logic Optimizations  
+- [x] Skill 3 – Sequential Logic Optimizations  
+- [x] Skill 4 – Sequential Optimizations for Unused Outputs  
 
 ---
 
@@ -60,5 +59,5 @@ This day focuses on **RTL optimizations**, covering **combinational logic optimi
 
 ---
 
-🚀 End of Day 3 – Combinational and Sequential Optimizations Covered covered.
+🚀 End of Day 3 – Combinational and Sequential Optimizations Covered.
 
