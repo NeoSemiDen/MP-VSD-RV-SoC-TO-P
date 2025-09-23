@@ -27,10 +27,7 @@ end
 
 endmodule
 ````
-- Here, we have a dff, upon reset application `reset = 1`, next value taken by q is 0, and when `reset = 0`, next value taken by q is 1.
-- This behaviour is like q is `not` of reset, but with edge sensitivity.
-- This should synthesis as dff but, with `not reset` behaviour.
-
+- Here, 
 Let's see what our synthesis tool do on this design.
 - Being present in verilog_files folder as in previous labs, we will execute these commands.
 
@@ -46,17 +43,9 @@ show
 ---
 
 <p align="center">
-  <img src="../W1_images/counter_opt_wave.png" alt="counter_opt_wave.png" width="600" style="border:2px solid black;"/>
-  <br/>
-  <em>Figure 1: Simulation of above design - counter_opt </em>
-</p>
-
----
-
-<p align="center">
   <img src="../W1_images/counter_opt_yosys.png" alt="counter_opt_yosys.png" width="600" style="border:2px solid black;"/>
   <br/>
-  <em>Figure 2: Yosys view of Optimisation of counter_opt </em>
+  <em>Figure 1: Yosys view of Optimisation of counter_opt </em>
 </p>
 
 ---
@@ -86,19 +75,9 @@ Let's see what our synthesis tool do on this design.
 ---
 
 <p align="center">
-  <img src="../W1_images/counter_opt2_wave.png" alt="counter_opt2_wave.png" width="600" style="border:2px solid black;"/>
-  <br/>
-  <em>Figure 3: Simulation of above design - counter_opt2 </em>
-</p>
-
-- Here we can see that with reset or without reset, the output is 1.
-
----
-
-<p align="center">
   <img src="../W1_images/counter_opt2_yosys.png" alt="counter_opt2_yosys.png" width="600" style="border:2px solid black;"/>
   <br/>
-  <em>Figure 4: Yosys view of Optimisation of counter_opt2 </em>
+  <em>Figure 2: Yosys view of Optimisation of counter_opt2 </em>
 </p>
 
 
