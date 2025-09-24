@@ -21,7 +21,7 @@ endmodule
 ---
 
 <p align="center">
-  <img src="../W1_images/incomp_if_wave.png" alt="incomp_if_wave.png" width="600" style="border:2px solid black;"/>
+  <img src="../W1_images/incomp_if_wave.png" alt="incomp_if_wave.png" width="1200" style="border:2px solid black;"/>
   <br/>
   <em>Figure 1: Simulation of above design - incomp_if.v </em>
 </p>
@@ -57,7 +57,7 @@ endmodule
 ---
 
 <p align="center">
-  <img src="../W1_images/incomp_if2_wave.png" alt="incomp_if_wave.png" width="600" style="border:2px solid black;"/>
+  <img src="../W1_images/incomp_if2_wave.png" alt="incomp_if_wave.png" width="1200" style="border:2px solid black;"/>
   <br/>
   <em>Figure 3: Simulation of above design - incomp_if2.v </em>
 </p>
