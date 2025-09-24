@@ -72,7 +72,7 @@ endmodule
 <p align="center">
   <img src="../W1_images/incomp_case_wave.png" alt="incomp_case_wave.png" width="600" style="border:2px solid black;"/>
   <br/>
-  <em>Figure 1: Simulation of above design - incomp_case.v </em>
+  <em>Figure 3: Simulation of above design - incomp_case.v </em>
 </p>
 
 ---
@@ -80,7 +80,7 @@ endmodule
 <p align="center">
   <img src="../W1_images/incomp_case_yosys.png" alt="incomp_case_yosys.png" width="600" style="border:2px solid black;"/>
   <br/>
-  <em>Figure 2: Yosys view of Optimisation of incomp_case.v </em>
+  <em>Figure 4: Yosys view of Optimisation of incomp_case.v </em>
 </p>
 
 ---
@@ -111,7 +111,7 @@ endmodule
 <p align="center">
   <img src="../W1_images/bad_case_wave.png" alt="bad_case_wave.png" width="600" style="border:2px solid black;"/>
   <br/>
-  <em>Figure 1: Simulation of above design - bad_case.v </em>
+  <em>Figure 5: Simulation of above design - bad_case.v </em>
 </p>
 
 ---
@@ -119,7 +119,7 @@ endmodule
 <p align="center">
   <img src="../W1_images/bad_case_yosys.png" alt="bad_case_yosys.png" width="600" style="border:2px solid black;"/>
   <br/>
-  <em>Figure 2: Yosys view of Optimisation of bad_case.v </em>
+  <em>Figure 6: Yosys view of Optimisation of bad_case.v </em>
 </p>
 
 ---
@@ -155,7 +155,7 @@ endmodule
 <p align="center">
   <img src="../W1_images/partial_case_wave.png" alt="partial_case_wave.png" width="600" style="border:2px solid black;"/>
   <br/>
-  <em>Figure 1: Simulation of above design - partial_case_assign.v </em>
+  <em>Figure 7: Simulation of above design - partial_case_assign.v </em>
 </p>
 
 ---
@@ -163,7 +163,7 @@ endmodule
 <p align="center">
   <img src="../W1_images/partial_case_yosys.png" alt="partial_case_yosys.png" width="600" style="border:2px solid black;"/>
   <br/>
-  <em>Figure 2: Yosys view of Optimisation of partial_case_assign.v </em>
+  <em>Figure 8: Yosys view of Optimisation of partial_case_assign.v </em>
 </p>
 
 ---
