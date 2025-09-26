@@ -28,9 +28,9 @@ endmodule
 #### Simulation
 
 <p align="center">
-  <img src="../W1_images/mux_gen_wave.png" alt="mux_gen_wave.png" width="600" style="border:2px solid black;"/>
+  <img src="../W1_images/mux_gen_wave.png" alt="mux_gen_wave.png" width="1200" style="border:2px solid black;"/>
   <br/>
-  <em>Figure 1: Simulation of Mux with generate construct - comp_case.v </em>
+  <em>Figure 1: Simulation of Mux with generate construct </em>
 </p>
 
 ---
@@ -68,9 +68,9 @@ endmodule
 #### Simulation
 
 <p align="center">
-  <img src="../W1_images/mux_gen_wave.png" alt="mux_gen_wave.png" width="600" style="border:2px solid black;"/>
+  <img src="../W1_images/mux_gen_wave.png" alt="mux_gen_wave.png" width="1200" style="border:2px solid black;"/>
   <br/>
-  <em>Figure 2: Simulation of demux with case construct - comp_case.v </em>
+  <em>Figure 2: Simulation of demux with case construct </em>
 </p>
 
 
@@ -95,9 +95,9 @@ endmodule
 #### Simulation
 
 <p align="center">
-  <img src="../W1_images/mux_gen_wave.png" alt="mux_gen_wave.png" width="600" style="border:2px solid black;"/>
+  <img src="../W1_images/mux_gen_wave.png" alt="mux_gen_wave.png" width="1200" style="border:2px solid black;"/>
   <br/>
-  <em>Figure 3: Simulation of demux with generate construct - comp_case.v </em>
+  <em>Figure 3: Simulation of demux with generate construct </em>
 </p>
 
 ---
@@ -138,9 +138,9 @@ endmodule
 
 
 <p align="center">
-  <img src="../W1_images/rca_wave.png" alt="rca_wave.png" width="600" style="border:2px solid black;"/>
+  <img src="../W1_images/rca_wave.png" alt="rca_wave.png" width="1200" style="border:2px solid black;"/>
   <br/>
-  <em>Figure : Simulation of Ripple Carry Adder - comp_case.v </em>
+  <em>Figure : Simulation of Ripple Carry Adder </em>
 </p>
 
 ---
