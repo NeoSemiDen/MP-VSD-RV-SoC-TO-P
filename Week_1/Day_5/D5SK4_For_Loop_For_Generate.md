@@ -59,7 +59,7 @@ end
 ## L2 – For Loop and For Generate (Part 2)
 
 #### DEMUX Construction
-- 1x9 Demux
+- 1x8 Demux
 ````Verilog
 always@(*) begin
   op_bus[7:0] = 8'b0;
