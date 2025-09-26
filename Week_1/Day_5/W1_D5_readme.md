@@ -55,8 +55,7 @@ This day focuses on **synthesis optimization techniques**, including **IF-CASE c
 |--------|-------|
 | L1 | Lab – For and For Generate (Part 1) |
 | L2 | Lab – For and For Generate (Part 2) |
-| L3 | Lab – For and For Generate (Part 3) |
-| L4 | Lab – For and For Generate (Part 4) |
+| L3-L4 | Lab – For and For Generate (Part 3-4) |
 
 👉 [Read Notes](D5SK5_Labs_For_Loop_For_Generate.md)
 
@@ -67,7 +66,7 @@ This day focuses on **synthesis optimization techniques**, including **IF-CASE c
 - [x] Skill 2 – Labs on Incomplete IF  
 - [x] Skill 3 – Labs on Incomplete Overlapping CASE  
 - [x] Skill 4 – For Loop and For Generate  
-- [ ] Skill 5 – Labs on For Loop and For Generate  
+- [x] Skill 5 – Labs on For Loop and For Generate  
 
 ---
 
