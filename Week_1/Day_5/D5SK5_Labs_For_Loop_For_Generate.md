@@ -140,7 +140,7 @@ endmodule
 <p align="center">
   <img src="../W1_images/rca_wave.png" alt="rca_wave.png" width="1200" style="border:2px solid black;"/>
   <br/>
-  <em>Figure : Simulation of Ripple Carry Adder </em>
+  <em>Figure 4: Simulation of Ripple Carry Adder </em>
 </p>
 
 ---
