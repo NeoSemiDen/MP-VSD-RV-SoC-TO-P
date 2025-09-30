@@ -43,7 +43,8 @@ This is a high-level overview of my weekly progress. For detailed notes, please 
 || Day 3 |**Combinational and Sequential Optimizations**|✅ Completed|[Details](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_1/Day_3/W1_D3_readme.md)|
 || Day 4 |**Gate Level Simulation (GLS)** <br> **Blocking and Non-blocking Statements** <br> **Synthesis-Simulation Mismatch**|✅ Completed|[Details](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_1/Day_4/W1_D4_readme.md)|
 || Day 5 |**Optimization in Synthesis**|✅ Completed|[Details](https://github.com/NeoSemiDen/MP-VSD-RV-SoC-TO-P/blob/main/Week_1/Day_5/W1_D5_readme.md)|
-| **Week 2** |||🔜 Coming Next week|🗓️ Soon|
+| [**Week 2**](./Week_2/Week_2_readme.md) | Part 1| **Conceptual Understanding of SoC design** |⏳ In Progress|[Details](./Week_2/W2_P1.md)|
+| | Part 2| **Functional Modelling of BabySoC** |⏳ In Progress|[Details](./Week_2/W2_P2.md)|
 
 ---
 
